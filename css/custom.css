@@ -1,0 +1,32 @@
+.carousel-inner {
+  background-color: red;
+  width: 100%;
+}
+
+.carousel-item {
+  background-color: blue;
+  width: 100%;
+  left: 0px;
+}
+
+.info {
+  background-color: blue;
+}
+
+.cost {
+  background-color: green;
+}
+
+.stock {
+  background-color: indigo;
+}
+
+.purchase {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  background-color: green;
+}
