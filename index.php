@@ -98,16 +98,32 @@
             </div>
         </div>
 
+        <div class="food-categories">
+
+                <!-- nån hackig loop grej för alla kategorier-->
+            <div class="food-category">
+                <?php
+                 echo "wow"; 
+                ?>
+                <?php for($i=1;$i<=5;$i++){ ?>
+
+                    <li>Menu Item <?php echo $i; ?></li>
+                    <?php } ?>
+            </div>
+            
+        
+        </div>
+
         <div> -- Burgare --
         <!-- food item #1 -->
         <div class="row bg-warning">
-            <div class="col">
+            <div class="col"> 
                 <img src="pictures\köttbullar.jpg"  wdith="150" height="150" alt="köttbullar">
             </div>
             <div class="col">
                 <div class="row">
-                    Gräddstuvade kötbullar med hasselbackspotatis
-                </div>
+                    Gräddstuvade kötbullar med 
+                </div>hasselbackspotatis
                 <div class="row">
                     Sojaprotein, veteprotein, potatis, havregrädde
                 </div>
